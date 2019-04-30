@@ -7,6 +7,11 @@
     "start": "node index.js",
     "debug": "node --inspect-brk index.js"
   },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyleaisho/webpack-stats-compare"
+  },
   "author": "Kyle Aisho",
   "license": "MIT"
 }
