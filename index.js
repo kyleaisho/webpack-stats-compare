@@ -12,7 +12,7 @@ function getStatsPath() {
 function readStats(path) {
   return new Promise((resolve, reject) => {
     fs.readFile(path, (err, data) => {
-      if (err) reject(error);
+      if (err) reject(err);
 
       resolve(JSON.parse(data));
     })
