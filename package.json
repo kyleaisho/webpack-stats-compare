@@ -1,6 +1,6 @@
 {
   "name": "webpack-stats-compare",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -10,7 +10,6 @@
     "start": "node index.js",
     "debug": "node --inspect-brk index.js"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/kyleaisho/webpack-stats-compare"
