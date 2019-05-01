@@ -1,7 +1,7 @@
 {
   "name": "webpack-stats-compare",
   "version": "0.1.4",
-  "description": "",
+  "description": "Discover where files moved in your webpack chunks",
   "main": "index.js",
   "bin": {
     "webpack-stats-compare": "./index.js"

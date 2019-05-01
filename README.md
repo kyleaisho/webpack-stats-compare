@@ -1,10 +1,13 @@
-Compare two webpack stats files to get a list of the files which are
+# WEBPACK-STATS-COMPARE
+
+
+
+A tool to compare two webpack stats files to get a list of the files which are
 moved into and out of each named chunk.
 
 How to use:
 
-
-`npm start -- './path1 './path2'`
+`webpack-stats-compare ./path1/stats-old.json ./path2/stats-new.json`
 
 
 The first argument will be the original stats file and the second
@@ -22,5 +25,7 @@ modals:
   Modules moved out of chunk:
     /src/NewModal/Modal.jsx
 ```
+
+Please submit issues or feature requests to Github.
 
 LICENSE: MIT
