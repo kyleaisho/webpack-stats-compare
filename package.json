@@ -1,8 +1,11 @@
 {
   "name": "webpack-stats-compare",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "webpack-stats-compare": "./index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "debug": "node --inspect-brk index.js"
