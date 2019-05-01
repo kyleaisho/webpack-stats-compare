@@ -14,6 +14,13 @@
     "type": "git",
     "url": "https://github.com/kyleaisho/webpack-stats-compare"
   },
+  "keywords": [
+    "webpack",
+    "stats",
+    "chunk",
+    "compare",
+    "analyze"
+  ],
   "author": "Kyle Aisho",
   "license": "MIT"
 }
